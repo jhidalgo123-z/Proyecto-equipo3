@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from proyecto-equipo-3!")
+"""Paquete del proyecto de riesgo de abandono de clientes."""

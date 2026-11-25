@@ -1,2 +1,20 @@
+# Entorno y secretos
 .venv
+.env
+
+# Archivos generados (se regeneran ejecutando el notebook o scripts/train.py)
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+reports/
+
+# Cachés de Python y herramientas
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Sistema operativo
 .DS_Store
